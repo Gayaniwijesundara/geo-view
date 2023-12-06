@@ -1,6 +1,7 @@
 import { MapContainer, TileLayer, GeoJSON } from "react-leaflet";
 import "leaflet/dist/leaflet.css";
 import coodinations from "../assets/coodinations.json";
+import "../styles/Geomap.css"
 
 const center = [6.18530499, 81.23883863];
 
@@ -20,8 +21,8 @@ const GeoViwer = () => {
     <div className="MapViwer">
       <MapContainer
         center={center}
-        zoom={16.5}
-        style={{ width: "100vw", height: "calc(100vh - 60px)" }}
+        zoom={16.2}
+        style={{ width: "100vw", height: "100vh" }}
       >
         <TileLayer
           url="https://api.maptiler.com/maps/satellite/256/{z}/{x}/{y}.jpg?key=Y1poX1TfZydW5s8DOc36"

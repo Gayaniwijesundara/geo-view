@@ -3,11 +3,23 @@
   align-items: center;
   justify-content: start;
   padding-left: 40px;
-  height: 50px;
-  background-color: rgba(0, 42, 255, 0), 0.695;
+  height: 65px;
+  background-color: rgba(0, 102, 255, 0.662);
+  position:fixed;
+  z-index: 40;
+  width: 100%;
+  margin-left: 40px;
+  margin-top: 10px;
+
 }
 
 .Header p {
   margin-left: 100px;
   font-size: 18px;
+  color: white;
+}
+
+.Header h2{
+  color:aliceblue;
+
 }
