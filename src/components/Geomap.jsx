@@ -12,7 +12,7 @@ const onEachPolygon = (feature, layer) => {
   layer.options.fillColor = "green";
   layer.options.fillOpacity = 0.2;
   layer.options.weight = 1;
-  layer.options.color = "red";
+  layer.options.color = "blue";
 };
 
 const GeoViwer = () => {
