@@ -20,7 +20,7 @@ const GeoViwer = () => {
     <div className="MapViwer">
       <MapContainer
         center={center}
-        zoom={16.8}
+        zoom={16.5}
         style={{ width: "100vw", height: "calc(100vh - 60px)" }}
       >
         <TileLayer
