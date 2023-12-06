@@ -8,7 +8,7 @@ const onEachPolygon = (feature, layer) => {
   const countryName = feature.properties.Name;
   const area = feature.properties.Area;
 
-  layer.bindPopup(`<h4>${countryName}</h4>` + `<span>Area: ${area} cm</span>`);
+  layer.bindPopup(`<h4>${countryName}</h4>` + `<span>Area: ${area} acres</span>`);
   layer.options.fillColor = "green";
   layer.options.fillOpacity = 0.2;
   layer.options.weight = 1;
@@ -20,7 +20,7 @@ const GeoViwer = () => {
     <div className="MapViwer">
       <MapContainer
         center={center}
-        zoom={16}
+        zoom={17}
         style={{ width: "100vw", height: "calc(100vh - 60px)" }}
       >
         <TileLayer
