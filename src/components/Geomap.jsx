@@ -3,11 +3,13 @@ import "leaflet/dist/leaflet.css";
 import coodinations from "../assets/coodinations.json";
 import "../styles/Geomap.css"
 
+
 const center = [6.18530499, 81.23883863];
 
 const onEachPolygon = (feature, layer) => {
   const countryName = feature.properties.Name;
   const area = feature.properties.Area;
+ 
 
   layer.bindPopup(`<h4>Location:${countryName}</h4>` + `<span>Area: ${area} acres</span>`);
   layer.options.fillColor = "green";

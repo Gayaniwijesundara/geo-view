@@ -1,0 +1,40 @@
+.AreaVolume{
+   
+    position:fixed;
+    top: 100px;  
+    padding:10px;  
+    font-size: 10px;
+    left:15px;
+    z-index: 40;
+    width: 31.3%;
+    background-color: rgba(0, 102, 255, 0.662);
+}
+
+.Inputfield{
+
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+
+}
+
+.Inputfield label{
+    color:rgb(255, 255, 255);
+    font-size: 17px;
+}
+
+.AreaVolume button{
+    color:rgb(0, 0, 0);
+    font-size: 17px;
+    margin-right: 10px;
+}
+
+.Inputfield input::placeholder{
+    font-size: 15px;
+    font-style:italic;
+    color :rgb(129, 125, 125);
+}
+
+.AreaVolume button:hover{
+    background-color: rgb(123, 124, 124);
+}
