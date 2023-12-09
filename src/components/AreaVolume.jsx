@@ -12,11 +12,11 @@ const AreaVolume = ()=>{
         const selected=coodinations.features.find((current)=> current.properties.Name===value)
         const currentarea= selected.properties.Area
         setType(calculationType)
-        if(calculationType==="Area"){
+        if(calculationType==="Area in acres"){
          
           setResult(currentarea)
         }
-        if(calculationType==="Volume"){
+        if(calculationType==="Volume in cubic meter"){
           const currentvolume=(currentarea*meandepth*4046.86).toFixed(3)
           setResult(currentvolume)
         }
@@ -35,15 +35,15 @@ const AreaVolume = ()=>{
                 </div>  
 
                 <div className="Inputfield">
-                <label>Mean depth</label>
+                <label>Mean Depth</label>
                 <input type="number" placeholder="Enter the mean depth of Saltpan" value={meandepth} onChange={(e)=>setmeandepth(e.target.value)} />
                 </div>
 
-                <button onClick={()=>checkname("Area")}>Calculate Area</button>
-                <button onClick={()=>checkname("Volume")}>Calculate Volume</button>
+                <button onClick={()=>checkname("Area in acres")}>Calculate Area</button>
+                <button onClick={()=>checkname("Volume in cubic meter")}>Calculate Volume</button>
                 <button onClick={clear}>Clear</button>
                 {result && (
-                  <h2>Saltpan {type} in cubic meter :{result}</h2>
+                  <h2>Saltpan {type} : {result}</h2>
                 )}
                 
           </div>

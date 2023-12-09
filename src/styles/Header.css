@@ -4,8 +4,9 @@
   justify-content: start;
   padding-left: 40px;
   height: 65px;
-  background-color: rgba(0, 102, 255, 0.662);
+  background-color: rgba(7, 18, 97, 0.662);
   position:fixed;
+  font-family: Georgia, 'Times New Roman', Times, serif;
   z-index: 40;
   width: 100%;
   margin-left: 40px;
@@ -15,11 +16,12 @@
 
 .Header p {
   margin-left: 100px;
-  font-size: 18px;
+  font-size: 20px;
   color: white;
 }
 
 .Header h2{
   color:aliceblue;
+  font-size: 30px;
 
 }

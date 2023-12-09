@@ -4,7 +4,7 @@ const Header = () => {
   return (
     <div className="Header">
       <h2>Design Project| Group 01</h2>
-      <p>Web GIS system for Resources management in Salterns at Hambantota district, Sri Lanka</p>
+      <p>Web GIS system for Resources management in Salterns, Sri Lanka</p>
     </div>
   );
 };

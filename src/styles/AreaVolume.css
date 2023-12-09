@@ -1,31 +1,35 @@
 .AreaVolume{
    
     position:fixed;
-    top: 100px;  
+    top: 95px;  
     padding:10px;  
     font-size: 10px;
     left:15px;
     z-index: 40;
     width: 31.3%;
-    background-color: rgba(0, 102, 255, 0.662);
+    background-color: rgba(7, 17, 97, 0.389);
 }
 
 .Inputfield{
 
     display: flex;
     flex-direction: column;
-    margin-bottom: 10px;
+    margin-bottom: 12px;
+    
 
 }
 
 .Inputfield label{
     color:rgb(255, 255, 255);
     font-size: 17px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .AreaVolume button{
-    color:rgb(0, 0, 0);
+    color:rgb(25, 25, 218);
     font-size: 17px;
+    font-style:inherit;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     margin-right: 10px;
 }
 
@@ -36,5 +40,23 @@
 }
 
 .AreaVolume button:hover{
-    background-color: rgb(123, 124, 124);
+    background-color: rgb(224, 224, 36);
+    font-style: initial;
+    color: rgb(0, 0, 0);
+}
+
+.AreaVolume h2{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: aliceblue;
+    border-top-right-radius: 1px ;
+    font-size: 18px;
+    text-decoration: solid;
+    border: 2px solid rgb(148, 148, 153);
+    border-width: 0.5cap;
+    align-items:center;
+    border-style: double;
+    background-color: rgb(13, 31, 77);
+    
+    
+    
 }
