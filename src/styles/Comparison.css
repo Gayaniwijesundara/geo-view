@@ -32,8 +32,16 @@
 
 
 .Comparison input::placeholder{
-    font-style: italic;
-    font-size: 14px;
-    color:aliceblue(129, 125, 125);
+    
+    font-size: 13.5px;
+    font-weight: 100;
+    color:dark grey;
+    font-style: oblique;
+    
+    
 }
 
+.Comparison input{
+    font-size: 12px;
+
+}
