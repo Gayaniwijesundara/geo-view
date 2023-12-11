@@ -1,0 +1,39 @@
+.Comparison {
+    position:fixed;
+    top: 300px;  
+    padding:10px;  
+    font-size: 10px;
+    left:15px;
+    z-index: 40;
+    width: 31.3%;
+    background-color: rgba(7, 17, 97, 0.389);
+}
+
+.listbox {
+    height: 300px;
+    overflow-y: auto;
+}
+
+.listbox p{
+    color:aliceblue;
+    font-size: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.listbox span{
+    color:aqua;
+    font-size: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.Comparison button{
+    font-size: 17px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+.Comparison input::placeholder{
+    font-style: italic;
+    font-size: 14px;
+    color:aliceblue(129, 125, 125);
+}
+
